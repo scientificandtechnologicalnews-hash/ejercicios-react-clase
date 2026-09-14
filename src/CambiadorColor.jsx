@@ -1,4 +1,4 @@
-import { useState } from 'react'
+/*import { useState } from 'react'
 
 export const CambiadorColor = () => {
   // 1. Definimos el estado para el color de fondo. 
@@ -30,10 +30,10 @@ export const CambiadorColor = () => {
   return (
     <div style={estiloFondo}>
       <h1>Color de fondo: {color}</h1>
-      {/* Usamos el evento onClick para disparar nuestra función [10] */}
+      
       <button onClick={generarColorAleatorio}>
         Cambiar color
       </button>
     </div>
   )
-}
+}*/
