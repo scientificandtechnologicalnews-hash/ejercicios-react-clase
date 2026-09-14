@@ -1,4 +1,4 @@
-/*import { useState } from 'react'
+import { useState } from 'react'
 
 export const CambiadorColor = () => {
   // 1. Definimos el estado para el color de fondo. 
@@ -36,4 +36,4 @@ export const CambiadorColor = () => {
       </button>
     </div>
   )
-}*/
+}
