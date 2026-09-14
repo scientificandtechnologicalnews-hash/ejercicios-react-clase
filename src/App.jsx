@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import { CambiadorColor } from './CambiadorColor'
 import { ContadorClics } from './ContadorClics'
+import { ListaDinamica } from './ListaDinamica'
 
 function App() {
   // Este estado determinará qué ejercicio vemos
@@ -20,6 +21,7 @@ function App() {
           <nav style={{ display: 'flex', flexDirection: 'column', gap: '10px', maxWidth: '250px' }}>
             <button onClick={() => setEjercicioActual(1)}>Ejercicio 1: Cambiador de Color</button>
             <button onClick={() => setEjercicioActual(2)}>Ejercicio 2: Contador de Clics</button>
+            <button onClick={() => setEjercicioActual(3)}>Ejercicio 3: Lista Dinámica</button>
             {/* Aquí añadiremos los botones del 3 al 9 conforme avancemos */}
           </nav>
         </section>
@@ -34,6 +36,7 @@ function App() {
           
           {ejercicioActual === 1 && <CambiadorColor />}
           {ejercicioActual === 2 && <ContadorClics />}
+          {ejercicioActual === 3 && <ListaDinamica />}
         </div>
       )}
     </main>
