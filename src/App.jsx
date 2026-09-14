@@ -1,8 +1,9 @@
+import { CambiadorColor } from './CambiadorColor'
+
 function App() {
   return (
     <main>
-      <h1>Mis Ejercicios de React</h1>
-      {/* Aquí iremos renderizando cada ejercicio */}
+      <CambiadorColor />
     </main>
   )
 }
