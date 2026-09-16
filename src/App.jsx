@@ -5,6 +5,7 @@ import { ListaDinamica } from './ListaDinamica'
 import { FiltroBusqueda } from './FiltroBusqueda'
 import { Calculadora } from './Calculadora'
 import { Temporizador} from './Temporizador'
+import { GeneradorPassword } from './GeneradorPassword'
 
 function App() {
   // Este estado determinará qué ejercicio vemos
@@ -28,6 +29,7 @@ function App() {
             <button onClick={() => setEjercicioActual(4)}>Ejercicio 4: Filtro de busqueda </button>
             <button onClick={() => setEjercicioActual(5)}>Ejercicio 5: Calculadora </button>
             <button onClick={() => setEjercicioActual(6)}>Ejercicio 6: Temporizador </button>
+            <button onClick={() => setEjercicioActual(7)}>Ejercicio 7: Generador de Password</button>
             {/* Aquí añadiremos los botones del 3 al 9 conforme avancemos */}
           </nav>
         </section>
@@ -46,6 +48,7 @@ function App() {
           {ejercicioActual === 4 && <FiltroBusqueda />}
           {ejercicioActual === 5 && <Calculadora />}
           {ejercicioActual === 6 && <Temporizador />}
+          {ejercicioActual === 7 && <GeneradorPassword />}
         </div>
       )}
     </main>
