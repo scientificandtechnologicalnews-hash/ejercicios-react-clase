@@ -6,6 +6,7 @@ import { FiltroBusqueda } from './FiltroBusqueda'
 import { Calculadora } from './Calculadora'
 import { Temporizador} from './Temporizador'
 import { GeneradorPassword } from './GeneradorPassword'
+import { ContadorPalabras } from './ContadorPalabras'
 
 function App() {
   // Este estado determinará qué ejercicio vemos
@@ -30,6 +31,7 @@ function App() {
             <button onClick={() => setEjercicioActual(5)}>Ejercicio 5: Calculadora </button>
             <button onClick={() => setEjercicioActual(6)}>Ejercicio 6: Temporizador </button>
             <button onClick={() => setEjercicioActual(7)}>Ejercicio 7: Generador de Password</button>
+            <button onClick={() => setEjercicioActual(8)}>Ejercicio 8: Contador de Palabras</button>
             {/* Aquí añadiremos los botones del 3 al 9 conforme avancemos */}
           </nav>
         </section>
@@ -49,6 +51,8 @@ function App() {
           {ejercicioActual === 5 && <Calculadora />}
           {ejercicioActual === 6 && <Temporizador />}
           {ejercicioActual === 7 && <GeneradorPassword />}
+          {ejercicioActual === 8 && <ContadorPalabras />}
+
         </div>
       )}
     </main>
