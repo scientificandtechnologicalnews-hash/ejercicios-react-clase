@@ -33,7 +33,7 @@ function App() {
             <button onClick={() => setEjercicioActual(6)}>Ejercicio 6: Temporizador </button>
             <button onClick={() => setEjercicioActual(7)}>Ejercicio 7: Generador de Password</button>
             <button onClick={() => setEjercicioActual(8)}>Ejercicio 8: Contador de Palabras</button>
-            <button onClick={() => setEjercicioActual(9)}>9. Lista de Tareas (LocalStorage)</button>
+            <button onClick={() => setEjercicioActual(9)}>Ejer9. Lista de Tareas (LocalStorage)</button>
             {/* Aquí añadiremos los botones del 3 al 9 conforme avancemos */}
           </nav>
         </section>
